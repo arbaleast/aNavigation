@@ -22,7 +22,6 @@ ul {
     margin: 0!important;
 }
 
-
 /*媒体查询*/
 
 @media (max-width: 768px) {
@@ -274,8 +273,8 @@ ul {
 }
 
 .folder-item-box p {
-    font-size: 12px;
-    color: #969696;
+    font-size: 14px;
+    color: #141414;
     width: 100%;
     margin: 10px 0 0 0;
     text-align: center;

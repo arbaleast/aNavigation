@@ -76,55 +76,50 @@ function rgb2hex(rgb) {
 $(function() {
         var bookmark = {
             data: [{
-                name: '开发日志',
-                link: 'https://kksan.top/f5404b68deeb4634b39dac0bc67ec693',
-                box_shadow: '#F18033',
-                icon: 'img/log.png',
-            }, {
-                name: '酷安',
-                link: 'https://www.coolapk.com',
+                name: '423Down',
+                link: 'https://www.423down.com/',
                 box_shadow: '#11B063',
-                icon: 'img/coolapk.png',
+                icon: 'https://www.423down.com/wp-content/themes/D7/img/favicon.ico',
             }, {
-                name: 'Via插件',
-                link: 'http://via-app.cn',
-                box_shadow: '#FA7199',
-                icon: 'img/via.png',
+                name: 'Twitter',
+                link: 'https://twitter.com/home',
+                box_shadow: '#1d1e20',
+                icon: 'https://img.icons8.com/color/344/twitter--v1.png',
             }, {
-                name: '今日热榜',
-                link: 'https://tophub.today/',
+                name: 'Rutracker',
+                link: 'https://rutracker.org/forum/index.php',
                 box_shadow: '#F2584A',
-                icon: 'img/headline.png',
+                icon: 'https://rutracker.org/favicon-32x32.png',
             }, {
-                name: '知乎',
-                link: 'https://www.zhihu.com/',
+                name: 'Github',
+                link: 'https://github.com/',
                 box_shadow: '#0078D8',
-                icon: 'img/zhihulogo.png',
+                icon: '	https://github.githubassets.com/favicons/favicon.svg',
             }, {
-                name: '小米商城',
-                link: 'https://m.mi.com/',
+                name: 'Netspeak',
+                link: 'https://netspeak.org/',
                 box_shadow: '#F57923',
-                icon: 'img/mi.png',
+                icon: 'data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/X0rY/9jT9gD///8A////Af///wH///8AKQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/X0rY//38/gH///8A////ACkMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8tEcz//v7/Af///wEpDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/y0RzP8pDMv/KQzL/19K2P////8AKQzL/ykMy//+/v7///////////8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy///////KQzL/ykMy/8pDMv/+/v+ACkMy/8pDMv/NhvO//////8pDMv/KQzL/ykMy/8pDMv/KQzL/zgdz//+/v///////ykMy/8pDMv/KQzL/19K2P8pDMv/KQzL/y8TzP//////KQzL/ykMy/8pDMv/KQzL/y4SzP/6+v7/9fT9//39/v8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8sD8z//////ykMy/8pDMv/KQzL/yoNy//x7/z//Pz+/zAUzf//////Kg3L/ykMy/8pDMv/KQzL/ykMy/8pDMv/Kg3L//////8pDMv/KQzL/ykMy////////////ykMy/8pDMv//////ysPzP8pDMv/KQzL/ykMy/8pDMv/KQzL/yoNy///////KQzL/ykMy////////////ykMy/8pDMv/KQzL//////8tEMz/KQzL/ykMy/8pDMv/KQzL/ykMy/8qDcv//////ykMy////////////ykMy/8pDMv/KQzL/ykMy///////LxPM/ykMy/8pDMv/KQzL/ykMy/8pDMv/Kw/M//z8/P///////////ykMy/8pDMv/KQzL/ykMy/8pDMv//////zEWzf8pDMv/KQzL/ykMy/8pDMv/KQzL/y8Tzf/+/v///////ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL//////83HM7/KQzL/ykMy/8pDMv/KQzL/ykMy////////////ykMy/8pDMv/KQzL/ykMy/8pDMv/NRnO/////////////////ykMy/8pDMv/KQzL/ykMy/8rDsv/Kg3L/yoNy/8pDMv/KQzL/ykMy/8pDMv/KQzL/yoNy/8qDsv/KQzL/yoNy/8qDcv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/KQzL/ykMy/8pDMv/AB8AAAAHAAAAAwAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==',
             }, {
                 name: 'unsplash',
                 link: 'https://unsplash.com/',
                 box_shadow: '#2C2C2C',
                 icon: 'img/unsplash.png',
             }, {
-                name: '豆瓣',
-                link: 'https://m.douban.com/',
+                name: 'stackoverflow',
+                link: 'https://stackoverflow.com/questions',
                 box_shadow: '#37bf4c',
-                icon: 'img/douban.png',
+                icon: 'https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196',
             }, {
-                name: '虎扑',
-                link: 'https://www.hupu.com/',
+                name: 'Google tanslator',
+                link: 'https://translate.google.cn/',
                 box_shadow: '#c01d2f',
-                icon: 'img/hupu.png',
+                icon: 'https://ssl.gstatic.com/translate/favicon.ico',
             }, {
-                name: '斗鱼',
-                link: 'https://www.douyu.com/',
+                name: '3blue1brown',
+                link: 'https://www.3blue1brown.com/',
                 box_shadow: '#fe7700',
-                icon: 'img/douyu.png',
+                icon: 'https://www.3blue1brown.com/favicons/favicon.png',
             }, {
                 name: 'CSDN',
                 link: 'https://www.csdn.net/',
@@ -141,10 +136,10 @@ $(function() {
                 box_shadow: '#D7191A',
                 icon: 'img/sspai.png',
             }, {
-                name: '小众软件',
-                link: 'https://www.appinn.com/',
+                name: 'ghxi',
+                link: 'https://www.ghxi.com/',
                 box_shadow: '#3279ea',
-                icon: 'img/xiaozhong.png',
+                icon: 'https://www.ghxi.com/favicon.ico',
             }, {
                 name: '数字尾巴',
                 link: 'https://www.dgtle.com/',
@@ -155,11 +150,6 @@ $(function() {
                 link: 'https://app.21jingji.com/html/2020yiqing/',
                 box_shadow: '#7C5DC7',
                 icon: 'img/ding.png',
-            }, {
-                name: '疫情辟谣',
-                link: 'https://vp.fact.qq.com/home',
-                box_shadow: '#00A0E9',
-                icon: 'img/true.png',
             }]
         }
         for (var i = 0; i < bookmark.data.length; i++) {
@@ -388,16 +378,16 @@ function check() {
 var d = new Date();
 var time = d.getHours();
 if (time < 24) {
-    document.getElementById("title").innerHTML = "一个导航 | Good evening";
+    document.getElementById("title").innerHTML = "Good evening";
 }
 if (time < 18) {
-    document.getElementById("title").innerHTML = "一个导航 | Good afternoon";
+    document.getElementById("title").innerHTML = "Good afternoon";
 }
 if (time < 12) {
-    document.getElementById("title").innerHTML = "一个导航 | Good morning";
+    document.getElementById("title").innerHTML = "Good morning";
 }
 if (time < 5) {
-    document.getElementById("title").innerHTML = "一个导航 | Stay up late again";
+    document.getElementById("title").innerHTML = "Stay up late again; 别熬夜，熬夜对手机不好";
 }
 //title问候语结束
 

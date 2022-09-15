@@ -199,24 +199,6 @@
         </ul>
         <blockquote class="blockquote">▎ 新闻</blockquote>
         <ul>
-            <a target="_blank" href="http://www.chinadaily.com.cn/">
-                <li class="sidenav-btn">中国日报</li>
-            </a>
-            <a target="_blank" href="http://www.sc168.com/">
-                <li class="sidenav-btn">顺德新闻</li>
-            </a>
-            <a target="_blank" href="http://news.cctv.com/">
-                <li class="sidenav-btn">央视新闻</li>
-            </a>
-            <a target="_blank" href="https://www.thepaper.cn/">
-                <li class="sidenav-btn">澎湃新闻</li>
-            </a>
-            <a target="_blank" href="https://www.hk01.com/">
-                <li class="sidenav-btn">香港01</li>
-            </a>
-            <a target="_blank" href="https://www.msn.com/zh-tw/news">
-                <li class="sidenav-btn">台湾即时新闻</li>
-            </a>
             <a target="_blank" href="https://www.bbc.com/">
                 <li class="sidenav-btn">BBC</li>
             </a>
@@ -365,7 +347,7 @@
 
                 <!-- 搜索框 -->
                 <div class="inputDiv">
-                    <form id="form" action="https://cn.bing.com/search" target="_self" onsubmit="return check()">
+                    <form id="form" action="https://aoolge-search.herokuapp.com/search?q=%s&country=CN" target="_self" onsubmit="return check()">
                         <input onmouseover="this.focus()" onfocus="this.select()" id="inputText" type="text" placeholder="Bing搜索..." name="q" size="30" />
                         <button id="submitButton" class="submitButton" type="submit"></button>
                     </form>
@@ -389,13 +371,6 @@
                 <div id="nav" class="nav">
                     <ul></ul>
                 </div>
-
-                <!-- 更新提示框 -->
-                <div id="alert" class="alert alert-info alert-dismissible" role="alert">
-                    <button type="button" id="closealert" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <strong>有新版本啦！</strong>赶紧清除缓存刷新看下吧！更新内容可查看<a target="_blank" href="https://kksan.top/f5404b68deeb4634b39dac0bc67ec693" class="alert-link">更新日志</a>。
-                </div>
-
             </div>
     </main>
 
